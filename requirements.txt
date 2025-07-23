@@ -5,6 +5,11 @@ scikit-learn
 nltk
 tqdm
 gunicorn
-spacy
-spacy[lookups]
+spacy==3.5.0
+blis==0.7.9
+thinc==8.1.10
+srsly==2.4.6
+catalogue==2.0.8
+spacy-legacy==3.0.12
+spacy-loggers==1.0.4
 es-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.5.0/es_core_news_sm-3.5.0-py3-none-any.whl
