@@ -3,6 +3,6 @@ services:
     name: flask-backend
     env: python
     buildCommand: ""
-    startCommand: gunicorn src.api:app
+    startCommand: PYTHONPATH=src gunicorn src.api:app
     plan: free
     region: oregon
